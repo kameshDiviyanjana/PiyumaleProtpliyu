@@ -1,0 +1,6 @@
+@layer{
+
+    .navebar{
+        @apply max-lg:hidden
+    }
+}

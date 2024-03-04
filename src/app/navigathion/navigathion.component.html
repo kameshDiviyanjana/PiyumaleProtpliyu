@@ -1,0 +1,33 @@
+<div class="  bg-gray-900 justify-center items-center  ">
+    <div class=" text-whitee w-full  justify-center items-center py-3 mt-2 lg:grid lg:grid-cols-2" >
+        <div class="mt-2 pl-3 text-white border-y-purple-600   ">
+ 
+            <div className='   grid grid-cols-2 y '>
+                <div >
+                <h1 class=" px-5 font-extralight text-3xl">Piyuma<span class="text-red-600 ">L</span> </h1>
+            
+                </div>
+                <div class=" bg-red-500">
+               
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-white float-end hidden max-lg:block cursor-pointer sm:mb-9" (click)="DispyeNave()" >
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"  />
+    </svg>
+                </div>
+              
+              </div>
+        </div>
+        
+        <div class=" text-whitee pr-4 mt-2 text-end ">
+           
+         <ul class="mr-8 lg:flex lg:flex-1 items-center justify-end gap-6   text-white " [ngClass] = "{'navebar':navdis}">
+             <li class="navho cursor-pointer " (click)="scrollToSkills('home')" ><a href="">Home</a></li>
+             <li class="navho cursor-pointer" (click)="scrollToSkills('skills')"><a >skill</a></li>
+             <li class="navho cursor-pointer" (click)="scrollToSkills('about')"><a >About</a></li>
+             <li class="navho cursor-pointer"  (click)="scrollToSkills('skills')"><a >My Profile</a></li>
+           </ul>
+          
+          
+        </div>
+      
+     </div>
+</div>
