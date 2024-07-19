@@ -9,6 +9,10 @@ module.exports = {
       screens :{
         tbs : "10px"
      }
+     ,
+     colors: {
+      'custom-gray': '#1A1A2E', // Your custom gray color
+    },
     },
   },
   plugins: [],
